@@ -4,15 +4,27 @@ body{
 }
 
 #container{
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     max-width: 100vw;
     max-height: 100vh;
 }
 
+#sqPerSide{
+    text-align: center;
+    background-color: aliceblue;
+    color: green;
+    border: 0.5px solid green;
+    cursor: pointer;
+}
+
 .gridSquare{
-    box-sizing: border-box;
-    height: 5.25vh;
-    width: 5.25vw;
+    height: 6.25vh;
+    width: 6.25vw;
     background-color: #345659;
+}
+
+.gridSquare:hover{
+    background-color: aliceblue;
 }
